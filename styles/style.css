@@ -1,0 +1,45 @@
+body{
+  background-color: bisque;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.principal{
+  margin-top: 10%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+
+}
+
+#lupa{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.seleccion{
+  margin-top: 40px;
+  padding: 5px;
+}
+
+.card {
+    margin-bottom: 25px;
+    border-color: var(--dark);
+    border-width: 2px 0px;
+  }
+  
+  .card-header{
+    background-color: var(--dark);
+    color: var(--white);
+  }
+  
+  .divider {
+    text-align: center;
+  }
+  
+  h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
